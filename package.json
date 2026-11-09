@@ -1,0 +1,14 @@
+{
+  "name": "handkaf-static-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Original, buildless HTML/CSS/JS starter for static hosting",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test",
+    "check": "npm run validate && npm test"
+  }
+}
